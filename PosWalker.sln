@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosWalker", "PosWalker.csproj", "{2ABFFB25-D4EB-49C9-ADDE-4F6B0F58FB82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ABFFB25-D4EB-49C9-ADDE-4F6B0F58FB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABFFB25-D4EB-49C9-ADDE-4F6B0F58FB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABFFB25-D4EB-49C9-ADDE-4F6B0F58FB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABFFB25-D4EB-49C9-ADDE-4F6B0F58FB82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCA67EDA-7560-4194-B902-EA9F45B965E4}
+	EndGlobalSection
+EndGlobal
