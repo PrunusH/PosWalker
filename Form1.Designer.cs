@@ -36,6 +36,7 @@
             // 
             // txtLeftPos
             // 
+            this.txtLeftPos.Enabled = false;
             this.txtLeftPos.Location = new System.Drawing.Point(32, 23);
             this.txtLeftPos.Name = "txtLeftPos";
             this.txtLeftPos.Size = new System.Drawing.Size(133, 22);
@@ -94,6 +95,11 @@
             // upDownPacketsToSent
             // 
             this.upDownPacketsToSent.Location = new System.Drawing.Point(35, 147);
+            this.upDownPacketsToSent.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.upDownPacketsToSent.Minimum = new decimal(new int[] {
             1,
             0,
@@ -123,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(352, 219);
+            this.ClientSize = new System.Drawing.Size(352, 226);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.upDownPacketsToSent);
             this.Controls.Add(this.label1);
@@ -132,7 +138,6 @@
             this.Controls.Add(this.txtRightPos);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtLeftPos);
-            this.Enabled = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
