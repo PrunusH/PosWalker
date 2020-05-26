@@ -27,10 +27,12 @@ namespace PosWalker {
             m_GlobalHook.KeyDown += OnKeyDown;
         }
 
-        private void OnKeyDown(object sender, KeyEventArgs e) {
+        private void OnKeyDown(object sender, KeyEventArgs e)
+        {
             if (tile1 == null || tile2 == null) return;
             HPoint destination;
-            switch (e.KeyCode) {
+            switch (e.KeyCode)
+            {
                 case Keys.Left:
                     destination = tile1;
                     break;
@@ -41,8 +43,9 @@ namespace PosWalker {
                     return;
             }
 
-            for (var i = 0; i < packets_to_send; i++)
-                Connection.SendToServerAsync (Out.RoomUserWalk, destination.X, destination.Y);
+            for (var i = 0; i < packets_to_send; i++) {
+                Connection.SendToServerAsync(Out.RoomUserWalk, destination.X, destination.Y);
+            }
         }
 
         private void OnUserStatusChanged(DataInterceptedEventArgs e) {         

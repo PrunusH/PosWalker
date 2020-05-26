@@ -4,7 +4,7 @@ PosWalker é uma extensão do tanji para navegar para posições específicas ut
 
 ## Instalação
 
-Faça o download da última versão na página de [releases](https://github.com/ArachisH/Tanji). Instale-o diretamente através da interface do Tanji. Caso não o tenha em seu computador, faça seu dowload através do [repositório oficial](https://github.com/ArachisH/Tanji).
+Faça o download da última versão na página de [releases](https://github.com/gabl00n/PosWalker/releases/tag/1.0.0). Instale-o diretamente através da interface do Tanji. Caso não o tenha em seu computador, faça seu dowload através do [repositório oficial](https://github.com/ArachisH/Tanji).
 
 
 ## Utilização
@@ -13,5 +13,5 @@ Movimente-se até uma posição do quarto. Em seguida, clique no botão para faz
 ## Notas
 Testado apenas na versão 1.4.1238.0.
 
-## License
+## Licença
 [MIT](https://choosealicense.com/licenses/mit/)
